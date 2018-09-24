@@ -13,9 +13,14 @@
     height:605px;
     
 } */
+*{
+  margin: 0;
+  padding: 0;
+}
 html,body{
     width: 100%;
     height: 100%;
+    background-size: 100% 100%;
 }
  .container{
     /* background-image: url(img/3.jpg); */
@@ -51,6 +56,7 @@ button{
     outline:none;
 }
 #playorpause{
+    margin-left: 10px;
     display:block;background:pink;
     border-radius:48px;cursor:pointer;position:absolute;
     font-family:'Webdings';
