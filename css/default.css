@@ -1,0 +1,61 @@
+
+
+/**Ĭ����ʽ��*/
+/* background-image:url(img/3.jpg) */
+/* .header{
+    width:100%;
+    height:605px;
+   
+} */
+/* .header .logo{
+    float:left;
+    width:350px;
+    height:605px;
+    
+} */
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+ .container{
+    /* background-image: url(img/3.jpg); */
+    
+    width: 800px;
+    height:605px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+/* .header .language{
+    float:left;
+    width:350px;
+    height:605px;
+} */
+
+#canvas{
+    /* background-image: url(img/4.jpg); */
+    /* background-color: #cccccc; */
+    margin: 0 auto; 
+}
+
+/* .content{
+    width:100%;
+    height:90px;
+    background-image:url(img/3.jpg);
+} */
+
+
+
+
+button{
+    outline:none;
+}
+#playorpause{
+    display:block;background:pink;
+    border-radius:48px;cursor:pointer;position:absolute;
+    font-family:'Webdings';
+    font-size:48px;color:green;
+    position: absolute;
+    bottom: 40px;
+}
