@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <!-- 兼容手机-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
-    <link rel="shortcut icon" type="images/x-icon" href="img/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="css/sty.css">
-    <script type="text/javascript" src="js/main.js" charset="UTF-8"> </script>
-    <title>陈晓辉--转盘抽奖</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <script type="text/javascript" src="js/lottery.js" charset="UTF-8"> </script>
+    <title>陈晓辉——转盘抽奖</title>
 
-
+   
 </head>
-
-<body onload="core.init()">
+<body background="img/3.jpg" onload="core.init()">
+    <!-- <div class="header"> -->
+        <!-- <div class="logo"><img src="img/1.gif" width="350px" height="605px"/></div> -->
     <div class="container">
-        <canvas id="canvas" width="800px" height="605px"></canvas>
-        <button id="playorpause" onclick="playOrpause()">4</button>
-        <div class="btn_div">
-            <button id="btn_lottery">
-                <h1>冒险夺礼品</h1>
-            </button>
-        </div>
-        <audio hidden="hidden" id="video" loop="loop" src="纯音乐 - 第一轮抽奖欢快的背景音乐.mp3" controls="controls"></audio>
+        <canvas id="canvas" width="800px" height="605px" ></canvas></div>
+        <!-- <div class="language"><img src="img/2.gif" width="350px" height="605px"/></div> -->
+      
+    <!-- </div> -->
+</div>
 
-    </div>
+<center><button style="width:200px;height:80px;" id="btn_lottery" ><h1>冒险夺礼品</h1></button></center> 
+    <!-- <embed src="纯音乐 - 第一轮抽奖欢快的背景音乐.mp3" hidden="true" autostart="true" loop="loop"> -->
+        <!-- hidden="hidden"      autoplay="autoplay" -->
+         <!-- <audio  controls="controls"  loop="loop">
+            <source src="纯音乐 - 第一轮抽奖欢快的背景音乐.ogg" type="audio/ogg" />
+            <source src="纯音乐 - 第一轮抽奖欢快的背景音乐.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+          </audio>  -->
+          
+          <audio hidden="hidden"  id="video"  loop="loop"  src="纯音乐 - 第一轮抽奖欢快的背景音乐.mp3" controls="controls"></audio>
 
-    </div>
+          <button id="playorpause" onclick="playOrpause()">4</button>
 
-
+        
+           <!-- <EMBED src="纯音乐 - 第一轮抽奖欢快的背景音乐.mp3" autostart="true" loop="lnfinte" width="0" height="0">  -->
+          <!-- <bgsound src="纯音乐 - 第一轮抽奖欢快的背景音乐.mp3" loop="-1">  -->
 </body>
-
 </html>
